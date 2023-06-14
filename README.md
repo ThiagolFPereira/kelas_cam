@@ -50,6 +50,7 @@ Start the local development server
     php artisan serve
     npm install
     npm run dev
+    Rota http://127.0.0.1:8000/kelas
 
 ## credit
 - [volar template](https://getstisla.com/)
