@@ -1,23 +1,5 @@
-# Crud-laravel-vue-js
-Crud laravel + vue js with api and template volar + vuetify component
-
-# Demo
-
-- Dashboard
- 
-<img src='https://i.postimg.cc/3xF9M2LJ/Dashboard.png' border='0' alt='Dashboard'/>
-
-- Table
-<img src='https://i.postimg.cc/nrmY3mjx/Table.png' border='0' alt='Table'/>
-
-- Form
-
-<img src='https://i.postimg.cc/C5pfLQ5y/tambah.png' border='0' alt='tambah'/>
-
-- Alert
-
-<img src='https://i.postimg.cc/g2tX6JjH/alert.png' border='0' alt='alert'/>
-
+# Webcam-laravel-vue-js
+Webcam laravel + vue js with api and template volar + vuetify component
 # Getting started
 
 ## Installation
@@ -54,8 +36,6 @@ Start the local development server
 
     php artisan serve
 
-You can now access the server at http://localhost:8000
-
 **TL;DR command list**
 
     git clone git@github.com:ThiagolFPereira/kelas_cam.git
@@ -68,6 +48,8 @@ You can now access the server at http://localhost:8000
 
     php artisan migrate
     php artisan serve
+    npm install
+    npm run dev
 
 ## credit
 - [volar template](https://getstisla.com/)
