@@ -8,9 +8,9 @@
                             <h3 class="card-title"> <i data-feather="user" style="width: 30px; height: 30px"></i> Siswa
                             </h3>
                         </div>
-                        <div class="card-right ml-3 mb-4">
+                        <!-- <div class="card-right ml-3 mb-4">
                             <p>{{ data.siswa }}</p>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -23,9 +23,9 @@
                             <h3 class="card-title"> <i data-feather="home" style="width: 30px; height: 30px"></i> Kelas
                             </h3>
                         </div>
-                        <div class="card-right ml-3 mb-4">
+                        <!-- <div class="card-right ml-3 mb-4">
                             <p>{{ data.kelas }} </p>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>

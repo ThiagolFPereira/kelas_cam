@@ -40,7 +40,7 @@ Vue.use(VueNoty)
 // const files = require.context('./', true, /\.vue$/i)
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
-Vue.component('example-component', require('./components/ExampleComponent.vue').default);
+Vue.component('example-component', require('./components/TimerComponent.vue').default);
 Vue.component('template-sidebar', require('./components/template/sidebar.vue').default);
 Vue.component('template-navbar', require('./components/template/navbar.vue').default);
 

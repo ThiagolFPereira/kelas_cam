@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\KelasController;
+use App\Http\Controllers\MediaController;
 use App\Http\Controllers\SiswaController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
@@ -23,7 +24,6 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 
 // dashboard route
 Route::get('/dashboard', [DashboardController::class,'index']);
+Route::post('/media', [MediaController::class,'store']);
 // pages routes
-Route::resource('siswa', SiswaController::class);
 Route::resource('kelas', KelasController::class);
-Route::post('/option/value', [SiswaController::class,'option']);
